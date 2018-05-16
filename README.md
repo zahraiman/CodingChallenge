@@ -15,10 +15,13 @@
 The main method is called "deduplicate" and resideds in service/Deduplicator.
 The configuation of the project is defined in pom.xml.
 
-Example of diffLogger output:
-![alt text](https://ibb.co/hsfEwJ)
-
-Example of leads_output:
-![alt text](https://ibb.co/bvBMbJ)
+<p align="center">
+  <img src="data/changeLog.png" width="350"  alt="Example of diffLogger output"/>
+  <figcaption>Example of diffLogger output</figcaption>
+</p>
+<p align="center">
+  <img src="data/leads_output.png" width="350" alt="Example of leads_output"/>
+  <figcaption>Example of leads_output</figcaption>
+</p>
 
 Please email me at zahra.iman87@gmail.com with any questions.
