@@ -8,9 +8,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    private static final String inputFileName = "data/leads.json";
+    private static String inputFileName = "data/leads.json";
 
     public static void main(String[] args) throws IOException {
+        if(args.length > 0){
+            inputFileName = args[0];
+        }
         List<Record> testRecords = JsonHelper.readRecords(inputFileName);
         Deduplicator deduplicator = new Deduplicator();
         RecordDiffLogger.startDeduplicatorLogger();
