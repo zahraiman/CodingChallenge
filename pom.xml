@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>groupId</groupId>
-    <artifactId>TakeHomeAssignment</artifactId>
+    <artifactId>CodingChallenge</artifactId>
     <packaging>jar</packaging>
     <version>1.0-0</version>
 
